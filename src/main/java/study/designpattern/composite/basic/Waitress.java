@@ -1,4 +1,4 @@
-package study.designpattern.composite;
+package study.designpattern.composite.basic;
 
 public class Waitress {
 	MenuComponent allMenus;

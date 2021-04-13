@@ -1,4 +1,4 @@
-package study.designpattern.composite;
+package study.designpattern.composite.basic;
 
 public abstract class MenuComponent {
 	public void add(MenuComponent menuComponent) {

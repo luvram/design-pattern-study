@@ -1,4 +1,4 @@
-package study.designpattern.composite.basic;
+package study.designpattern.composite.iterator;
 
 public class Main {
 	public static void main(String[] args) {
@@ -86,6 +86,8 @@ public class Main {
 		Waitress waitress = new Waitress(allMenus);
 
 		waitress.printMenu();
+
+		waitress.printVegetarianMenu();
 
 	}
 }

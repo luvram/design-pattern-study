@@ -1,4 +1,4 @@
-package study.designpattern.composite.basic;
+package study.designpattern.composite.iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -49,5 +49,11 @@ public class Menu extends MenuComponent {
 			MenuComponent menuComponent = iterator.next();
 			menuComponent.print();
 		}
+
+	}
+
+	@Override
+	public Iterator createIterator() {
+		return new CompositeIterator(menuComponents.iterator());
 	}
 }
